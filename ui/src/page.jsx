@@ -29,22 +29,6 @@ function NavBar() {
     </Navbar>
   );
 }
-function Footer() {
-  return (
-    <small>
-      <p className="text-center">
-        <Glyphicon glyph="copyright-mark" />
-        <br />
-        Dhruvil
-        <br />
-        <a href="https://github.com/dhruvilshahh/Assignment-6" target="blank">
-          GitHub Repository
-        </a>
-      </p>
-    </small>
-  );
-}
-
 export default function Page() {
   return (
     <div>
@@ -52,7 +36,6 @@ export default function Page() {
       <Grid fluid>
         <Contents />
       </Grid>
-      <Footer />
     </div>
   );
 }
